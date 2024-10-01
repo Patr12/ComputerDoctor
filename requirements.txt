@@ -1,0 +1,20 @@
+ComputerDoctor/
+│
+├── logs/
+│   └── logo.png
+│
+├── images/
+│   ├── maintenance.jpg
+│   ├── cyber.jpg
+│   └── network.jpg
+│
+├── css/
+│   └── styles.css
+│
+├── js/
+│   └── styles.js
+│
+└── pages
+    --- index.html
+    --- cyber.html
+Cisco@Ccna@2024

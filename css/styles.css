@@ -1,0 +1,45 @@
+/* General of whole body in each pages  styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+}
+
+.navbar-toggler {
+    display: none;
+}
+
+.nav-link {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    padding: 20px;
+}
+
+/* Responsive styles for small na kwa lager screen  screens */
+@media (max-width: 767px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+}
